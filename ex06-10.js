@@ -1,11 +1,11 @@
 function hyoji(){
   //表示する文字
-  var str = "一文字ずつ表示します。";
+  var str = "一年間ありがとうございました";
   //テキストボックスの文字の数
   var cnt = document.timer.moji.value.length;
   //文字が全部表示されているかを確認
   
-  if(cnt < 11){
+  if(cnt < 14){
     //現在より1文字多く切り出して表示
     document.timer.moji.value=str.substr(0,cnt+1);}
     
@@ -18,5 +18,5 @@ function startfnc(){
   setInterval("hyoji()",1000);}
 
 function mes(){
-  alert("1年間ありがとうございました！");
+  alert("3秒経ちました！");
 }

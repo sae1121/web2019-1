@@ -1,24 +1,17 @@
-function ChangeImageAndBack(){
-  
-  imgback();
-  
-  ThreeSecChange2(); 
-  
-}
-
-
-function ThreeSecChange2(){
-  setTimeout("imgchange2()",3000);
-}
-function imgchange2() {
-  document.getElementById('img13').src = './image/IMG_0166.png';
-}
-
-//function ThreeSecBack() { 
+function ThreeSecChange() { 
 //関数imgchange1()を3000ミリ秒間隔で呼び出す 
-//  setInterval("imgback()",3000);
-//}
+  setInterval("imgchange12()",3000); } 
+  
 
-function imgback() {
-  document.getElementById('img13').src = './image/IMG_0165.png';
+function imgchange12() {
+  document.getElementById('logo2').src = './image/IMG_0047.png';
 }
+
+
+//  <input type="button" value="画像の変更" onclick="imgchange1();">
+//  <img src='./image/josai.png' id="logo" alt="Josai Logo">
+
+// * ex06-9.js
+// function imgchange1() {
+//  document.getElementById('logo').src = './image/bulbon.gif';
+
