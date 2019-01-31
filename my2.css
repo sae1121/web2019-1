@@ -1,0 +1,42 @@
+body {
+   text-align: center;
+}
+
+body {
+  background-color: #FFFF99;
+}
+
+
+
+th.important {
+  color: blue;
+}
+table {margin-left:auto;margin-right:auto;}
+
+th,
+td,
+h2 {
+  border: double 6px #33ffff;
+}
+
+p.sample1 {
+  border: double 10px #0000ff;
+}
+
+p.sample2 {
+  border: margin 10px #ff0000;
+}
+
+p.sample3 {
+  margin: 30px 30px;
+  padding: 10px;
+  border: medium solid #ff00ff;
+}
+
+<!-- h1 {
+  color: blue;
+}
+
+-->h1 {
+  color: #F0A050;
+}
